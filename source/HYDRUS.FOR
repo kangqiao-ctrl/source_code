@@ -772,7 +772,7 @@
         write(*,*) 'Press Enter to continue'
         read(*,*)
       end if
-      stop
+      stop 1
 
 101   format(a)
       end
